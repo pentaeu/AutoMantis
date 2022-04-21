@@ -1,0 +1,42 @@
+1650514600324	geckodriver	INFO	Listening on 127.0.0.1:57894
+1650514603347	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57895" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilePyoopp"
+1650514603831	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilePyoopp\\search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  maybeScheduleBackgroundUpdateTask: exiting after uncaught exception in maybeScheduleBackgroundUpdateTask!
+  Message: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWinTaskSchedulerService.deleteTask]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/TaskSchedulerWinImpl.jsm :: deleteTask :: line 60"  data: no]
+  Stack:
+    deleteTask@resource://gre/modules/TaskSchedulerWinImpl.jsm:60:16
+deleteTask@resource://gre/modules/TaskScheduler.jsm:145:18
+maybeScheduleBackgroundUpdateTask@resource://gre/modules/BackgroundUpdate.jsm:469:31
+
+DevTools listening on ws://localhost:57895/devtools/browser/a80b54b2-fb78-4c46-9739-3c77b12d2588
+1650514606152	Marionette	INFO	Listening on port 57904
+1650514606485	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1650514611704	Marionette	INFO	Stopped listening on port 57904
+1650514669975	geckodriver	INFO	Listening on 127.0.0.1:57958
+1650514672996	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57959" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileuVK9ds"
+1650514673417	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileuVK9ds\\search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  maybeScheduleBackgroundUpdateTask: exiting after uncaught exception in maybeScheduleBackgroundUpdateTask!
+  Message: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWinTaskSchedulerService.deleteTask]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/TaskSchedulerWinImpl.jsm :: deleteTask :: line 60"  data: no]
+  Stack:
+    deleteTask@resource://gre/modules/TaskSchedulerWinImpl.jsm:60:16
+deleteTask@resource://gre/modules/TaskScheduler.jsm:145:18
+maybeScheduleBackgroundUpdateTask@resource://gre/modules/BackgroundUpdate.jsm:469:31
+
+DevTools listening on ws://localhost:57959/devtools/browser/f871cf2f-e383-4279-b195-c190ebc16d87
+1650514675624	Marionette	INFO	Listening on port 57969
+1650514676132	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1650514677706	Marionette	INFO	Stopped listening on port 57969
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
