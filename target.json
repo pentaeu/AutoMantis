@@ -16,5 +16,11 @@
     "name": "bugtracker1",
     "user": "root",
     "password": ""
+  },
+  "james": {
+    "host": "localhost",
+    "port": 4555,
+    "username": "root",
+    "password": "password"
   }
 }
