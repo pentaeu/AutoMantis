@@ -5,7 +5,6 @@ class JamesHelper:
 
     def __init__(self, app):
         self.app = app
-        self.wd = self.app.wd
 
     def ensure_user_exists(self, username, password):
         james_config = self.app.config['james']

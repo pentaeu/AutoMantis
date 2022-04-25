@@ -2,7 +2,6 @@ from model.project import Project
 
 
 def test_add_project(app, db, json_projects):
-
     project = json_projects
     old_projects = db.get_project_list()
     app.project.create_project(project)
